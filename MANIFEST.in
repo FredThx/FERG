@@ -1,0 +1,11 @@
+include *.md
+include comptage.py
+include config.py
+include comptage
+include comptage.sh
+include rf_temp_io.py
+include rf_temp_io
+include rf_temp_io.sh
+include chk_alertes.py
+include comptage.service
+graft arduino

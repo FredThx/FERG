@@ -1,0 +1,5 @@
+2016-07-27 21:00:05,752 - INFO - my_logging logger is started. Console : DEBUG. File (.log) : INFO
+2016-07-27 21:00:08,530 - ERROR -   File "<stdin>", line 1, in <module>
+
+2016-07-27 21:00:08,532 - ERROR - <type 'exceptions.AttributeError'> - 'module' object has no attribute 'inof'
+2016-07-27 21:00:16,985 - INFO - test

@@ -1,0 +1,11 @@
+[Unit]
+Description= FERG : Mon vieux compteur EDF connecte en mode framboise
+After=network-online.target
+
+[Service]
+ExecStart=/opt/FERG/comptage.sh
+User=root
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target

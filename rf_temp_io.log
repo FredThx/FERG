@@ -1,0 +1,50 @@
+2015-06-07 08:53:49,555 - INFO - fr_temp_io démarre
+2015-06-07 08:53:49,574 - INFO - re_recept_io created attached on 40 : GPIO en mode INPUT. Valeur = 0
+2015-06-07 08:53:49,579 - DEBUG - SQL==> SELECT `id`, `nom`, `formule` FROM `capteurs`
+2015-06-07 08:53:49,588 - INFO - Capteur 0010 : Cave ajoute
+2015-06-07 08:53:49,593 - DEBUG - Mesure de Cave ...
+2015-06-07 08:57:04,672 - ERROR -   File "rf_temp_io.py", line 44, in <module>
+    valeur = rf.read(capteur[1])
+  File "/usr/local/lib/python2.7/dist-packages/FGPIO-0.6.0-py2.7.egg/FGPIO/rf_recept_io.py", line 210, in read
+    value_readed = self.read_one()
+  File "/usr/local/lib/python2.7/dist-packages/FGPIO-0.6.0-py2.7.egg/FGPIO/rf_recept_io.py", line 156, in read_one
+    self.wait_for_init()
+  File "/usr/local/lib/python2.7/dist-packages/FGPIO-0.6.0-py2.7.egg/FGPIO/rf_recept_io.py", line 141, in wait_for_init
+    t = self.pulseIn()
+  File "/usr/local/lib/python2.7/dist-packages/FGPIO-0.6.0-py2.7.egg/FGPIO/rf_recept_io.py", line 49, in pulseIn
+    if time.time() > timeout:
+
+2015-06-07 08:57:04,674 - ERROR - <type 'exceptions.KeyboardInterrupt'> - 
+2015-06-18 20:07:44,343 - INFO - fr_temp_io démarre
+2015-06-18 20:07:44,386 - ERROR -   File "rf_temp_io.py", line 31, in <module>
+    rf = temperature_rf_recept_io(pc.pin[40])
+  File "/usr/local/lib/python2.7/dist-packages/FGPIO-0.6.0-py2.7.egg/FGPIO/rf_recept_io.py", line 114, in __init__
+    rf_recept_io.__init__(self, pin)
+  File "/usr/local/lib/python2.7/dist-packages/FGPIO-0.6.0-py2.7.egg/FGPIO/rf_recept_io.py", line 36, in __init__
+    self.pin.setmode(INPUT)
+  File "/usr/local/lib/python2.7/dist-packages/FGPIO-0.6.0-py2.7.egg/FGPIO/pin_io.py", line 235, in setmode
+    RPi.GPIO.setup(self.bcm_id, RPi.GPIO.IN)
+
+2015-06-18 20:07:44,389 - ERROR - <type 'exceptions.RuntimeError'> - No access to /dev/mem.  Try running as root!
+2015-06-18 20:07:52,561 - INFO - fr_temp_io démarre
+2015-06-18 20:07:52,573 - INFO - re_recept_io created attached on 40 : GPIO en mode INPUT. Valeur = 1
+2015-06-18 20:07:52,579 - DEBUG - SQL==> SELECT `id`, `nom`, `formule` FROM `capteurs`
+2015-06-18 20:07:52,746 - INFO - Capteur 0010 : Cave ajoute
+2015-06-18 20:07:52,750 - DEBUG - Mesure de Cave ...
+2015-06-18 20:08:10,461 - INFO - Mesure de Cave : 16.8.
+2015-06-18 20:08:10,475 - DEBUG - SQL==> "INSERT INTO mesures (capteur, date, temperature) VALUES ( 'Cave', '2015-06-18 20:08:10' , 16.8)"()
+2015-06-18 20:08:10,523 - DEBUG - SQL=> ok
+2015-06-18 20:08:10,526 - INFO - Capteur 0011 : Salon ajoute
+2015-06-18 20:08:10,528 - DEBUG - Mesure de Salon ...
+2015-06-18 20:08:28,339 - ERROR -   File "rf_temp_io.py", line 44, in <module>
+    valeur = rf.read(capteur[1])
+  File "/usr/local/lib/python2.7/dist-packages/FGPIO-0.6.0-py2.7.egg/FGPIO/rf_recept_io.py", line 210, in read
+    value_readed = self.read_one()
+  File "/usr/local/lib/python2.7/dist-packages/FGPIO-0.6.0-py2.7.egg/FGPIO/rf_recept_io.py", line 161, in read_one
+    datas.append(self._get_one_bit())
+  File "/usr/local/lib/python2.7/dist-packages/FGPIO-0.6.0-py2.7.egg/FGPIO/rf_recept_io.py", line 57, in _get_one_bit
+    t=self.pulseIn()
+  File "/usr/local/lib/python2.7/dist-packages/FGPIO-0.6.0-py2.7.egg/FGPIO/rf_recept_io.py", line 48, in pulseIn
+    while self.pin.get()==LOW:
+
+2015-06-18 20:08:28,341 - ERROR - <type 'exceptions.KeyboardInterrupt'> - 

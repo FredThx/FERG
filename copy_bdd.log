@@ -1,0 +1,39 @@
+2016-09-03 18:24:43,664 - INFO - my_logging logger is started. Console : DEBUG. File (copy_bdd.log) : INFO
+2016-09-03 18:24:43,702 - ERROR -   File "copy_bdd.py", line 23, in <module>
+    cursor_init.execute(req)
+  File "/usr/lib/python2.7/dist-packages/mysql/connector/cursor.py", line 494, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "/usr/lib/python2.7/dist-packages/mysql/connector/connection.py", line 683, in cmd_query
+    statement))
+  File "/usr/lib/python2.7/dist-packages/mysql/connector/connection.py", line 601, in _handle_result
+    raise errors.get_exception(packet)
+
+2016-09-03 18:24:43,704 - ERROR - <class 'mysql.connector.errors.ProgrammingError'> - 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE Id > 6970748' at line 1
+2016-09-03 18:25:12,525 - INFO - my_logging logger is started. Console : DEBUG. File (copy_bdd.log) : INFO
+2016-09-03 18:25:12,596 - ERROR -   File "copy_bdd.py", line 25, in <module>
+    for (Id, circuit, date_debut, date_fin, energie, puissance, compteur, type_horaire, analyse, archived)  in cursor:
+
+2016-09-03 18:25:12,600 - ERROR - <type 'exceptions.NameError'> - name 'cursor' is not defined
+2016-09-03 18:25:29,664 - INFO - my_logging logger is started. Console : DEBUG. File (copy_bdd.log) : INFO
+2016-09-03 18:25:32,913 - ERROR -   File "copy_bdd.py", line 25, in <module>
+    for (Id, circuit, date_debut, date_fin, energie, puissance, compteur, type_horaire, analyse, archived)  in cursor_init:
+  File "/usr/lib/python2.7/dist-packages/mysql/connector/cursor.py", line 766, in fetchone
+    row = self._fetch_row()
+  File "/usr/lib/python2.7/dist-packages/mysql/connector/cursor.py", line 744, in _fetch_row
+    binary=self._binary, columns=self.description)
+  File "/usr/lib/python2.7/dist-packages/mysql/connector/connection.py", line 649, in get_row
+    (rows, eof) = self.get_rows(count=1, binary=binary, columns=columns)
+  File "/usr/lib/python2.7/dist-packages/mysql/connector/connection.py", line 632, in get_rows
+    rows = self._protocol.read_text_result(self._socket, count)
+  File "/usr/lib/python2.7/dist-packages/mysql/connector/protocol.py", line 318, in read_text_result
+    rowdata = utils.read_lc_string_list(packet[4:])
+  File "/usr/lib/python2.7/dist-packages/mysql/connector/utils.py", line 205, in read_lc_string_list
+    elif buf[pos] == '\xff':
+
+2016-09-03 18:25:32,917 - ERROR - <type 'exceptions.KeyboardInterrupt'> - 
+2016-09-03 18:26:57,087 - INFO - my_logging logger is started. Console : DEBUG. File (copy_bdd.log) : INFO
+2016-09-03 18:26:57,130 - WARNING - ProgrammingError(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1", u'42000') in _action_sql_req
+2016-09-03 18:26:57,133 - WARNING - Reconnection en cours ...
+2016-09-03 18:26:57,148 - ERROR - Reconnection failed. 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+2016-09-03 18:27:50,947 - INFO - my_logging logger is started. Console : DEBUG. File (copy_bdd.log) : INFO
+2016-09-03 18:29:37,867 - INFO - my_logging logger is started. Console : DEBUG. File (copy_bdd.log) : INFO

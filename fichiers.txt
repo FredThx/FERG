@@ -1,0 +1,17 @@
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="9">
+            <File firstVisibleLine="819" xOffset="0" scrollWidth="2064" startPos="32583" endPos="32592" selMode="0" lang="Python" encoding="-1" filename="E:\developpement\PyProg\Notes.py" backupFilePath="" originalFileLastModifTimestamp="1431596670" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="432" startPos="0" endPos="0" selMode="0" lang="Python" encoding="-1" filename="S:\FERG\chk_alertes.py" backupFilePath="" originalFileLastModifTimestamp="1431786707" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="952" startPos="336" endPos="270" selMode="0" lang="Python" encoding="-1" filename="S:\FERG\rf_temp_io.py" backupFilePath="" originalFileLastModifTimestamp="1431888124" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="728" startPos="0" endPos="0" selMode="0" lang="Python" encoding="-1" filename="S:\FERG\FERG\circuit.py" backupFilePath="" originalFileLastModifTimestamp="1431782555" />
+            <File firstVisibleLine="90" xOffset="0" scrollWidth="1352" startPos="3476" endPos="3476" selMode="0" lang="Python" encoding="-1" filename="S:\FERG\FERG\compteur_edf.py" backupFilePath="" originalFileLastModifTimestamp="1431898414" />
+            <File firstVisibleLine="38" xOffset="0" scrollWidth="1713" startPos="1585" endPos="1601" selMode="0" lang="Python" encoding="-1" filename="S:\FERG\FERG\installation.py" backupFilePath="" originalFileLastModifTimestamp="1431898155" />
+            <File firstVisibleLine="204" xOffset="0" scrollWidth="1736" startPos="8689" endPos="8704" selMode="0" lang="Python" encoding="-1" filename="S:\FERG\FERG\tempeDB.py" backupFilePath="" originalFileLastModifTimestamp="1431891072" />
+            <File firstVisibleLine="12" xOffset="0" scrollWidth="734" startPos="839" endPos="847" selMode="0" lang="Python" encoding="-1" filename="S:\FGPIO\FGPIO\f_thread.py" backupFilePath="" originalFileLastModifTimestamp="1431895332" />
+            <File firstVisibleLine="43" xOffset="0" scrollWidth="696" startPos="2588" endPos="2588" selMode="0" lang="Python" encoding="-1" filename="S:\FERG\config.py" backupFilePath="" originalFileLastModifTimestamp="1431897534" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="576" startPos="0" endPos="0" selMode="0" lang="Python" encoding="-1" filename="S:\FERG\comptage.py" backupFilePath="" originalFileLastModifTimestamp="1431898438" />
+        </mainView>
+        <subView activeIndex="0" />
+    </Session>
+</NotepadPlus>
